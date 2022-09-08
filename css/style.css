@@ -3,40 +3,88 @@
     padding: 0px;
 }
 
-.enlaces {
+.h2entradas {
+    font-family: 'Lobster Two', cursive;
+    font-size: 37px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.parrafoentrada {
+    font-family: 'Dancing Script', cursive;
+    text-align: start;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    
+}
+
+.tituloentrada {
+    font-family: 'Oswald', sans-serif;
+    font-size: 27px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.cardentrada {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.progra {
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-right: 60px;
+}
+
+.enlaces
+ { 
+
+    font-family: 'Lobster Two', cursive;
     text-decoration: none;
     list-style-type: none;
     font-style: italic;
+    color: rgb(250, 250, 250);
     list-style: none;
+    display: inline-block;
     font-size: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.navegacion { 
+
+    font-family: 'Lobster Two', cursive;
+    text-decoration: none;
+    list-style-type: none;
+    font-style: italic;
+    color: rgb(250, 250, 250);
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
 
 }
 
 .enlaces,
-li,
-a {
+h4 {
     text-decoration: none;
     list-style-type: none;
     font-style: italic;
-    color: rgb(50, 214, 192);
+    font-size: 8px;
+    color: rgb(0, 0, 0);
     list-style: none;
-    display: inline-block;
-
-}
-
-.enlaces,
-li,
-a {
-    text-decoration: none;
-    list-style-type: none;
-    font-style: italic;
-    color: rgb(50, 214, 192);
-    list-style: none;
-    display: inline-block;
+    display:inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
 
 }
 
@@ -46,9 +94,30 @@ a {
     font-size: 22px;
     transition: 0.5s;
     font-style: italic;
-    color: rgba(0, 0, 0);
+    color: rgb(246, 246, 246);
     list-style: none;
     display: inline-block;
+}
+
+.banner {
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.sidebar {
+    float: inline-end;
+    position: sticky;
+
+
+}
+
+.sidebarlinks {
+    float: inline-end;
+    position: sticky;
+    background-color: yellow;
+    
+
 }
 
 .pie {
@@ -65,15 +134,13 @@ a {
     font-family: 'Cormorant SC', serif;
 }
 
+.paginacion li {
+    color: rgb(0, 0, 0);
+}
+
 .entrada {
     background-color: #0dcaf0;;
 
-}
-
-.productosh1 {
-    text-align: center;
-    color: cornflowerblue;
-    margin-top: 10px;
 }
 
 .cajadatos {
@@ -105,7 +172,7 @@ a {
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 25px;
-    margin-bottom: 55px;
+    margin-bottom: 25px;
 }
 
 /* GRID */
@@ -158,7 +225,7 @@ a {
     padding-top: 35px;
     padding-left: 10px;
     padding-bottom: 10px;
-    border: 2px solid #0dcaf0;
+    border: 2px solid #cef00d;
 }
 
 .divgaleria {
@@ -179,7 +246,7 @@ a {
 
 .foot {
     grid-area: foot;
-    background-color: #0dcaf0;
+    background-color: #b7f00d;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 15px;
     margin-top: 7px;
@@ -189,7 +256,7 @@ a {
 
 .nav {
     grid-area: nav;
-    background-color: #0dcaf0;
+    background-color: #d3e168;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 15px;
     margin-top: 7px;
